@@ -1,0 +1,9 @@
+img{vertical-align: center;}
+.content{overflow: hidden;    font-family: 'Cafe24SsurroundAir';}
+.content .gallery{overflow-x: hidden; overflow-y: scroll;padding:0;padding:0 20px;box-sizing: border-box;width: 560px;margin:0;}
+.photo{width: 500px;height: 300px;overflow: hidden;}
+.photo .hunt{width: 100%;position: relative;bottom:40%;}
+.photo .joy{width: 100%;}
+.photo .jump{width: 100%;position:relative;bottom:40%;}
+.content .photo_tit{background-color: #eee; padding:10px;}
+.box{margin-bottom: 30px;}

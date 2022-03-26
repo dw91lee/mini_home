@@ -1,0 +1,20 @@
+.content{overflow: hidden;      margin: 0 auto;padding:0; margin-bottom: 16px;}
+.content .diary{margin:11px;width: 560px;display: flex;justify-content:space-between;align-items: center;border: 1px solid #ccc; height: 60px;font-family: 'KoPubDotumMedium'}
+.diary_today{width: 55px;font-size: 0.9rem;line-height: 0.4rem;padding:20px;text-align: center;color:#008DCC;font-weight: bold;}
+.diary_day ul{display: flex;flex-wrap: wrap;width: calc(100% - 65px);font-size: 0.8rem;}
+.diary_day li{padding-right: 11px; text-align: center;}
+.sun a{color:#f00}
+.sat a{color:#00f}
+.day{color:#008DCC;text-align: left;}
+.diary_txt{width: 560px; height: 440px;margin:0 11px;box-sizing: border-box;overflow-y:scroll;}
+.diary_view{ font-family: 'Cafe24SsurroundAir'; border:1px solid #ccc;padding:20px;box-sizing: border-box;margin:15px 0;text-align: center;}
+.secret{background-color: #fff; width: 200px; padding:10px; text-align: center;margin:0 auto; transition: 1s;}
+.secret {color:#fff;display: block;text-align: center;font-family: 'Cafe24SsurroundAir'; }
+.secret:hover{background-color: #008DCC;}
+#secret-box {
+    display: none;
+    font-family: 'Cafe24SsurroundAir'; border:1px solid #ccc;padding:20px;box-sizing: border-box;margin:15px 0;
+  }
+  button{border:0}
+  .diary-date{color: #008DCC;margin-bottom: 20px;font-size:1.2rem}
+

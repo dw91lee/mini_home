@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>2022 MINI HOMEPAGE</title>
+    <link rel="stylesheet" href="./static/font.css" />
+    <link rel="stylesheet" href="./static/layout.css" />
+    <link rel="stylesheet" href="./static/diary.css" />
+    <script src="https://kit.fontawesome.com/2d16e45ce3.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="bookcover">
+      <div class="bookdot">
+        <div class="page">
+          <div class="left">
+            <div class="today">
+              <p>TODAY <span>32</span> | TOTAL4867979</p>
+            </div><!--today-->
+            <div class="profile">
+              <div class="profile_pic">
+                <img src="https://cdn.pixabay.com/photo/2020/01/26/14/59/kitten-4794761_960_720.png">
+              </div><!--profile_pic-->
+              <div class="profile_txt">
+                <p>누구나 재능은 있다.</p>
+                <p>드문 것은 그 재능이</p> 
+                <p>이끄는 암흑 속으로</p> 
+                <p>따라 들어갈 용기다.</p>
+                <p>- 에리카 종</p>
+              </div><!--profile_txt-->
+              <div class="profile_me">
+                <p>하플(♀)</p>
+                <select onchange="window.open(value,'_self');">
+                  <option>파도 타기</option>
+                  <option value="https://cafe.naver.com/codeuniv">코뮤니티</option>
+                  <option value="https://www.instagram.com/">인스타그램</option>
+                </select>
+              </div><!--profile_me-->
+            </div><!--profile-->
+          </div><!--left-->
+          <div class="right">
+          <div class="title">
+            <div class="name">
+            <p>하플이의 평화로운 일상.</p>
+            </div><!--name-->
+            <div class="url">
+              <p>https://url주소/나중에입력</p>
+            </div><!--url-->
+          </div><!--title-->
+          <div class="content">
+              <div class="diary">
+            <div class="diary_today">
+                <p>03.22</p>
+                <p>TUE</p>
+            </div><!--diary_today-->
+            <div class="diary_day">
+                <ul>
+                    <li class="sun"><a href="#">01</a></li>
+                    <li><a href="#">02</a></li>
+                    <li><a href="#">03</a></li>
+                    <li><a href="#">04</a></li>
+                    <li class="sat"><a href="#">05</a></li>
+                    <li class="sun"><a href="#">06</a></li>
+                    <li><a href="#">07</a></li>
+                    <li><a href="#">08</a></li>
+                    <li class="sun"><a href="#">09</a></li>
+                    <li><a href="#">10</a></li>
+                    <li><a href="#">11</a></li>
+                    <li class="sat"><a href="#">12</a></li>
+                    <li class="sun"><a href="#">13</a></li>
+                    <li><a href="#">14</a></li>
+                    <li><a href="#">15</a></li>
+                    <li><a href="#">16</a></li>
+                    <li><a href="#">17</a></li>
+                    <li><a href="#">18</a></li>
+                    <li class="sat"><a href="#">19</a></li>
+                    <li class="sun"><a href="#">20</a></li>
+                    <li><a href="#">21</a></li>
+                    <li><a href="#">22</a></li>
+                    <li><a href="#">23</a></li>
+                    <li><a href="#">24</a></li>
+                    <li><a href="#">25</a></li>
+                    <li class="sat"><a href="#">26</a></li>
+                    <li class="sun"><a href="#">27</a></li>
+                    <li><a href="#">28</a></li>
+                    <li><a href="#">29</a></li>
+                    <li><a href="#">30</a></li>
+                    <li><a href="#">31</a></li>
+                </ul>
+            </div><!--diary_day-->
+            </div><!--dairy-->
+            <div class="diary_txt">
+                <div class="diary_view">
+                    <p class="day">2022.03.22 화 21:00</p>
+                    <p>너 밖에 없어서</p>
+                    <p>널 사랑한게 아니라</p>
+                    <p>&nbsp;</p>
+                    <p>널 사랑하다보니 너밖에 없더라.</p>
+                    <p>by. 귀여니 - 늑대의 유혹</p>
+                </div><!--diary_view-->
+                <div class="diary_view">
+                    <p class="day">2022.03.22 화 18:00</p>
+                    <p>사랑은 설레임으로 시작해서 익숙함으로 변한다.</p>
+                    <p>대부분 익숨함을 지루함이라고 착각하지만</p>
+                    <p>그 안에 추억은 사랑보다 더 강함을 지녔다.</p>
+                </div><!--diary_view2-->
+                <div class="diary_view">
+                    <p class="day">2022.03.22 화 13:00</p>
+                    <p>우리 약속하자</p>
+                    <p>&nbsp;</p>
+                    <p>너와 나를 위해</p>
+                    <p>아파하지도 말고</p>
+                    <p>슬퍼하지도 말고</p>
+                    <p>&nbsp;</p>
+                    <p>서로 행복해하며</p>
+                    <p>웃으며 살기로</p>
+                    <p>그렇게</p>
+                    <p>&nbsp;</p>
+                    <p>우리 약속하자</p>
+                </div><!--diary_view3-->
+                <button class="diary-button font-neo secret" onclick="getTextFile()">
+                  <i class="fas fa-lock"></i> 하플의 비밀일기 보기
+                </button>
+                <div class="diary-box" id="secret-box">
+                  <div class="diary-date">하플의 비밀 일기</div>
+                  <div class="diary-text font-kyobohand" id="secret-diary"></div>
+                </div>
+            </div><!--diary_txt-->
+          </div><!--content-->
+          </div><!--right-->
+
+          <div class="menu">
+            <ul>
+              <li><a href="home.html">홈</a></li>
+              <li><a href="diary.html">일기장</a></li>
+              <li><a href="gallery.html">사진첩</a></li>
+              <li><a href="guest.html">방명록</a></li>
+            </ul>
+          </div><!--menu-->
+        </div><!--page-->
+      </div><!--bookdot-->
+    </div><!--bookcover-->
+
+    <script>
+  function getTextFile() {
+    var input = document.createElement("input");
+    input.type = "file";
+    input.accept = "text/plain";
+    input.onchange = function (event) {
+      processFile(event.target.files[0]);
+    };
+    input.click();
+  }
+
+  function processFile(file) {
+    var reader = new FileReader();
+    reader.readAsText(file, "utf-8");
+
+    reader.onload = function () {
+      document.getElementById("secret-diary").innerText = reader.result;
+      document.getElementById("secret-box").style.display = "block";
+    };
+  }
+    </script>
+  </body>
+</html>
